@@ -1,0 +1,89 @@
+<!--CREATE HTML FILE-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Calculator </title>
+
+<style>
+
+/* THIS IS HOW TO USE COMMENT IN CSS*/
+
+table{
+  border: 10px dotted blueviolet; /* LETS ADD BORDER IN OUR TABLE*/
+  margin-left: auto; /* we added margin that is set to auto to make it center*/
+  margin-right: auto;
+}
+
+
+input[type="button"]{
+  width: 100%; 
+  padding: 20px 40px;
+  background-color: violet; 
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+
+input type="text"]{ 
+  padding: 20px 30px; 
+  font-size: 24px; 
+  font-weight: bold; 
+  border: 5px solid black; 
+  border-radius: 5px;
+}
+
+</style>
+
+</head>
+<body>
+  
+  <table>
+    <!--THIS IS ROW 1-->
+    <tr>
+      <td colspan="3">
+        <input type="text" id="result">
+      </td>
+      <td><input type="button"value="C"></td>
+    </tr>
+   
+   <!--THIS IS ROW 2-->
+    <tr>
+      <td><input type="button" value="1"></td>
+      <td><input type="button" value="2"></td>
+      <td><input type="button" value="3"></td>
+      <td><input type="button" value="/"></td>
+    </tr>
+    
+    <!--THIS IS ROW 3-->
+     <tr>
+       <td><input type="button" value="4"></td>
+       <td><input type="button" value="5"></td>
+       <td><input type="button" value="6"></td>
+       <td><input type="button" value="*"></td>
+     </tr>
+     
+     <!--THIS IS ROW 4-->
+      <tr>
+        <td><input type="button" value="7"></td>
+        <td><input type="button" value="8"></td>
+        <td><input type="button" value="9"></td>
+        <td><input type="button" value="+"></td>
+      </tr>
+      
+      <!--THIS IS ROW 5-->
+       <tr>
+         <td><input type="button" value="."></td>
+         <td><input type="button" value="0"></td>
+         <td><input type="button" value="="></td>
+         <td><input type="button" value="-"></td>
+       </tr>
+      
+    
+  </table>
+  
+</body>
+</html>
